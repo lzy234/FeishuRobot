@@ -1,0 +1,18 @@
+{
+  "duty_members": [
+    {
+      "name": "所有人",
+      "open_id": "all"
+    },
+    {
+      "name": "吕泽羿",
+      "open_id": "ou_xxxxxxxxxxxxxxx2"
+    },
+    {
+      "name": "吕泽羿",
+      "open_id": "ou_xxxxxxxxxxxxxxx3"
+    }
+  ],
+  "last_index": 0,
+  "last_date": "2025-09-27"
+}

@@ -1,0 +1,17 @@
+[Unit]
+Description=Feishu Duty Reminder
+After=network.target
+
+[Service]
+# 替换为实际的用户名
+User=username
+# 替换为实际的项目路径
+WorkingDirectory=/path/to/feishu_robot
+ExecStart=/usr/bin/python3 /path/to/feishu_robot/main.py
+Restart=always
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target 
