@@ -87,27 +87,9 @@ def send_message(member):
     
     # 构建消息格式（使用@功能）
     message = {
-        "msg_type": "interactive",
-        "card": {
-            "config": {
-                "wide_screen_mode": True
-            },
-            "elements": [
-                {
-                    "tag": "div",
-                    "text": {
-                        "content": content,
-                        "tag": "plain_text"
-                    }
-                },
-                {
-                    "tag": "div",
-                    "text": {
-                        "content": f"<at id={member['open_id']}></at>",
-                        "tag": "lark_md"
-                    }
-                }
-            ]
+        "msg_type": "text",
+        "content": {
+            "text": "今日卫生值日提醒："+"<at user_id = \""+ member['open_id'] +"\">"+ member['name'] +"</at> 请记得完成卫生清扫工作！"
         }
     }
     

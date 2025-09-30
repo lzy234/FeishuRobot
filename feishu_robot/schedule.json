@@ -1,18 +1,50 @@
 {
   "duty_members": [
     {
-      "name": "所有人",
-      "open_id": "all"
+      "name": "郭小龙",
+      "open_id": "ou_ab709d9a5f064d1fec95c90958643260"
+    },
+    {
+      "name": "张茂林",
+      "open_id": "ou_c0376587b64e3ef9e7641fafd9b66900"
+    },
+    {
+      "name": "莫进",
+      "open_id": "ou_7d8a6e6df7621556ce0d21922b676706ccs"
+    },
+    {
+      "name": "徐志涛",
+      "open_id": "ou_3ce756096641d262e02f49655fdcb59b"
+    },
+    {
+      "name": "马文龙",
+      "open_id": "ou_8f3ead91a5772556b782f56f5af244f2"
+    },
+    {
+      "name": "金乐",
+      "open_id": ""
+    },
+    {
+      "name": "陈硕",
+      "open_id": ""
     },
     {
       "name": "吕泽羿",
       "open_id": "ou_89132066bddd16785ffdd9e3b67de306"
     },
     {
-      "name": "吕泽羿",
-      "open_id": "ou_xxxxxxxxxxxxxxx3"
+      "name": "林聲全",
+      "open_id": "ou_55f27418f9ffdedd4dfdd89277852a59"
+    },
+    {
+      "name": "李华超",
+      "open_id": ""
+    },
+    {
+      "name": "廖代华",
+      "open_id": ""
     }
   ],
-  "last_index": 1,
+  "last_index": 8,
   "last_date": "2025-09-27"
 }
